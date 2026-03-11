@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Angel ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="hearts-bg" id="heartsBg"></div>
+
+    <div class="container">
+        <!-- Screen 1: The Initial Question -->
+        <div class="screen active" id="screen1">
+            <div class="image-container">
+                <img src="images/sad.png" alt="Sad Cat">
+            </div>
+            <h1>Are you still mad at me, Angel?</h1>
+            <div class="btn-group">
+                <button class="btn btn-yes" id="btnYes1">Yes</button>
+                <button class="btn btn-no" id="btnNo1">No</button>
+            </div>
+        </div>
+
+        <!-- Screen 2: The Apology & Pleading -->
+        <div class="screen" id="screen2">
+            <div class="image-container">
+                <img src="images/pleading.png" alt="Pleading Cat">
+            </div>
+            <h1 id="pleadTitle">Please forgive me? 🥺</h1>
+            <div class="btn-group pleading-group" id="pleadingGroup">
+                <button class="btn btn-yes" id="btnYes2">Yes, I forgive you</button>
+                <button class="btn btn-no" id="btnNo2">No way</button>
+            </div>
+        </div>
+
+        <!-- Screen 3: Happy Ending -->
+        <div class="screen" id="screen3">
+            <div class="image-container">
+                <img src="images/happy.png" alt="Happy Hugging Cats">
+            </div>
+            <h1>Yay! I love you so much Angel! ❤️</h1>
+            <p>Thank you for forgiving me my Love!!!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
